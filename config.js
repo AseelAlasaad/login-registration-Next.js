@@ -1,12 +1,7 @@
-const DB_URL="mongodb+srv://aseel:O5U9k36THzwcr1Q6@cluster0.z9hew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/"
+const DB_URL="mongodb+srv://aseel:XfNaBEiBnxnM5AkO@cluster0.z9hew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const API= process.env.NODE_ENV === "production"? "http://xxx:3000/api": "http://localhost:3000/api"
 module.exports={
-    DB_URL
+    DB_URL,
+    API
 }
 
-// config.mjs
-// const config = {
-//     // Your configuration options
-//   };
-  
-//   export default config;
-  
