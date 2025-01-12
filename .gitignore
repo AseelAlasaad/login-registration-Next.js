@@ -11,7 +11,7 @@
 !.yarn/versions
 
 
-config.js
+.config.js
 # testing
 /coverage
 
